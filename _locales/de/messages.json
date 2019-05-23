@@ -1,0 +1,110 @@
+{
+  "extensionName": {
+    "message": "Real Tamper Data"
+  },
+  "extensionDescription": {
+    "message": "HTTP/HTTPS Header verändern und weiterschicken."
+  },
+  "extension_long_Description": {
+    "message": "Am Addon wird noch programmiert. Es ist noch lange nicht perfeckt. Bitte melde Bugs oder Ideen an https://github.com/Nitrama/Real-Tamper-Data Danke :-)"
+  },
+  "newtab_checkbox": {
+    "message": "Gesendetes in neuen Tab öffnen"
+  },
+  "ok_button": {
+    "message": "OK"
+  },
+  "button_start_tamper": {
+    "message": "Start Tamper"
+  },
+  "button_stop_tamper": {
+    "message": "Stop Tamper"
+  },
+  "button_clear": {
+    "message": "Daten leeren"
+  },
+  "button_options": {
+    "message": "Optionen"
+  },
+  "auto_scroll_checkbox": {
+    "message": "Automatisches scrollen"
+  },
+  "table_requestID": {
+    "message": "Request ID"
+  },
+  "table_time": {
+    "message": "Uhrzeit"
+  },
+  "table_duration": {
+    "message": "Zeit"
+  },
+  "table_size": {
+    "message": "Größe"
+  },
+  "table_status": {
+    "message": "Status"
+  },
+  "table_content_type": {
+    "message": "Content-Type"
+  },
+  "table_method": {
+    "message": "Methode"
+  },
+  "table_url": {
+    "message": "URL"
+  },
+  "button_new_entry": {
+    "message": "Neuer Eintrag"
+  },
+  "button_tamper": {
+    "message": "Tamper"
+  },
+  "button_abort": {
+    "message": "Verbindung Abbrechen"
+  },
+  "button_send_normal": {
+    "message": "Weitermachen"
+  },
+  "label_post_data": {
+    "message": "Post Data"
+  },
+  "label_header_data": {
+    "message": "Header Data"
+  },
+  "button_activate": {
+    "message": "Alles Aktivieren"
+  },
+  "button_deactivate": {
+    "message": "Alles Deaktivieren"
+  },
+  "button_delete": {
+    "message": "Markiertes Löschen"
+  },
+  "exlude_urls": {
+    "message": "URLs ausschließen"
+  },
+  "add_new_url": {
+    "message": "Neue URL hinzufügen"
+  },
+  "exlude_file_extension": {
+    "message": "Dateierweiterung ausschließen"
+  },
+  "add_new_file_extension": {
+    "message": "Neue Dateierweiterung hinzufügen"
+  },
+  "include_text_in_url": {
+    "message": "Text einschließen"
+  },
+  "add_new_text": {
+    "message": "Neuen Text hinzufügen"
+  },
+  "Backup": {
+    "message": "Backup"
+  },
+  "save_backup": {
+    "message": "Backup Speichern"
+  },
+  "load_backup": {
+    "message": "Backup Laden"
+  }
+}

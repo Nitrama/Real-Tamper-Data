@@ -1,0 +1,110 @@
+{
+  "extensionName": {
+    "message": "Real Tamper Data"
+  },
+  "extensionDescription": {
+    "message": "Change and forward HTTP/HTTPS header."
+  },
+  "extension_long_Description": {
+    "message": "The addon is still being programmed. It is far from perfect. Please report bugs or ideas to https://github.com/Nitrama/HTTP-Header-Live Thanks :-)"
+  },
+  "newtab_checkbox": {
+    "message": "Open the message in a new tab"
+  },
+  "ok_button": {
+    "message": "OK"
+  },
+  "button_start_tamper": {
+    "message": "Start Tamper"
+  },
+  "button_stop_tamper": {
+    "message": "Stop Tamper"
+  },
+  "button_clear": {
+    "message": "Clear"
+  },
+  "button_options": {
+    "message": "Options"
+  },
+  "auto_scroll_checkbox": {
+    "message": "Automatisches scrollen"
+  },
+  "table_requestID": {
+    "message": "Request ID"
+  },
+  "table_time": {
+    "message": "Time"
+  },
+  "table_duration": {
+    "message": "Duration"
+  },
+  "table_size": {
+    "message": "Size"
+  },
+  "table_status": {
+    "message": "Status"
+  },
+  "table_content_type": {
+    "message": "Content-Type"
+  },
+  "table_method": {
+    "message": "Method"
+  },
+  "table_url": {
+    "message": "URL"
+  },
+  "button_new_entry": {
+    "message": "New Entry"
+  },
+  "button_tamper": {
+    "message": "Tamper"
+  },
+  "button_abort": {
+    "message": "Cancel connection"
+  },
+  "button_send_normal": {
+    "message": "Continue"
+  },
+  "label_post_data": {
+    "message": "Post Data"
+  },
+  "label_header_data": {
+    "message": "Header Data"
+  },
+  "button_activate": {
+    "message": "Activate everything"
+  },
+  "button_deactivate": {
+    "message": "Disable everything"
+  },
+  "button_delete": {
+    "message": "Marked delete"
+  },
+  "exlude_urls": {
+    "message": "Exclude URLs"
+  },
+  "add_new_url": {
+    "message": "Add new URL"
+  },
+  "exlude_file_extension": {
+    "message": "Exclude file extension"
+  },
+  "add_new_file_extension": {
+    "message": "Add a new file extension"
+  },
+  "include_text_in_url": {
+    "message": "Include text"
+  },
+  "add_new_text": {
+    "message": "Add new text"
+  },
+  "Backup": {
+    "message": "Backup"
+  },
+  "save_backup": {
+    "message": "Save Backup"
+  },
+  "load_backup": {
+    "message": "Load Backup"
+  }
+}

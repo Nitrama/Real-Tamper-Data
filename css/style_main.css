@@ -1,0 +1,49 @@
+body {
+  min-width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Courier New;
+}
+table {
+  border: 1px solid #ddd;
+}
+
+#buttons {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#buttons button {
+  width: 25%;
+}
+
+#data_table_div {
+  flex-grow: 1;
+  overflow: scroll;
+  border: 1px solid #000;
+  margin: 10px;
+  white-space: nowrap;
+}
+#data_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+tr {
+  border: 1px dotted grey;
+}
+#auto_scroll_label {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

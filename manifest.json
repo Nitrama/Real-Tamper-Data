@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "0.1",
+  "author": "Martin Antrag",
+  "homepage_url": "https://github.com/Nitrama/Real-Tamper-Data/",
+  "default_locale": "en",
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "64": "icons/64.png"
+  },
+  "description": "__MSG_extensionDescription__",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "__MSG_extensionName__",
+    "default_icon": {
+      "64": "icons/64.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  }
+}

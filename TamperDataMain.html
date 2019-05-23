@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tamper Data Main</title>
+    <!--
+      <link rel="shortcut icon" type="image/x-icon" href="icons/icon_neu.svg" />
+    -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style_main.css" />
+  </head>
+
+  <body id="body">
+    <div id="buttons">
+      <button id="button_start_tamper" data-i18n="button_start_tamper"></button
+      ><button id="button_stop_tamper" disabled data-i18n="button_stop_tamper"></button
+      ><button id="button_clear" data-i18n="button_clear"></button
+      ><button id="button_options" data-i18n="button_options"></button>
+    </div>
+    <div id="data_table_div">
+      <table id="data_table">
+        <tr>
+          <th id="table_time" data-i18n="table_time"></th>
+          <th id="table_duration" data-i18n="table_duration"></th>
+          <th id="table_method" data-i18n="table_method"></th>
+          <th id="table_status" data-i18n="table_status"></th>
+          <th id="table_url" data-i18n="table_url"></th>
+        </tr>
+      </table>
+    </div>
+    <label id="auto_scroll_label" data-i18n="auto_scroll_checkbox"
+      ><input type="checkbox" id="auto_scroll_checkbox" checked
+    /></label>
+    <script src="internationalization.js"></script>
+    <script src="updateStorage.js"></script>
+    <script src="TamperDataMain.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tamper Data Sub</title>
+    <!--
+      <link rel="shortcut icon" type="image/x-icon" href="icons/icon_neu.svg" />
+    -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style_sub.css" />
+  </head>
+
+  <body>
+    <input id="input_url" value="URL Null" />
+    <label id="error"></label>
+    <div id="buttons">
+      <button
+        id="button_tamper"
+        class="button"
+        data-i18n="button_tamper"
+      ></button>
+      <button
+        id="button_abort"
+        class="button"
+        data-i18n="button_abort"
+      ></button>
+      <button
+        id="button_send_normal"
+        class="button"
+        data-i18n="button_send_normal"
+      >
+      </button>
+    </div>
+    <div class="data_div_list_all">
+      <div class="data_div_list_sep">
+        <label data-i18n="label_header_data"></label>
+        <div class="data_list" id="header_data"></div>
+        <button
+          class="button_new_entry"
+          id="button_new_entry_header"
+          data-i18n="button_new_entry"
+        ></button>
+      </div>
+      <div class="data_div_list_sep">
+        <label data-i18n="label_post_data"></label>
+        <div class="data_list" id="body_data"></div>
+        <button
+          class="button_new_entry"
+          id="button_new_entry_body"
+          data-i18n="button_new_entry"
+        ></button>
+      </div>
+    </div>
+
+    <script src="internationalization.js"></script>
+    <script src="updateStorage.js"></script>
+    <script src="TamperDataSub.js"></script>
+  </body>
+</html>
